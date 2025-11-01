@@ -74,38 +74,3 @@ Les étudiants apprendront à construire, entraîner et évaluer des modèles ca
 | **Batch** | Sous-ensemble des données utilisé à chaque itération. |
 | **Rétropropagation** | Ajustement des poids selon l’erreur obtenue. |
 
----
-
-## 📊 Résultats attendus
-
-- Affichage des courbes **accuracy** et **loss**  
-- Précision du modèle sur les jeux d’entraînement et de test  
-- Analyse des performances et identification des erreurs  
-- Proposition d’améliorations :  
-  - Ajustement du nombre de couches ou de neurones  
-  - Changement de fonction d’activation  
-  - Utilisation d’un CNN  
-  - Application de Data Augmentation  
-
----
-
-## 🧾 Travail à rendre
-
-Le rapport final doit contenir :
-1. Le **code complet** du TP  
-2. Les **courbes de précision et de perte**  
-3. La **valeur finale de la précision** obtenue  
-4. Une **analyse personnelle** :
-   - Interprétation des résultats  
-   - Difficultés rencontrées  
-   - Propositions d’amélioration  
-
-
-
-
-# Entraînement
-model.fit(x_train, y_train, epochs=5)
-
-# Évaluation
-model.evaluate(x_test, y_test)
-```
